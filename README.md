@@ -2,7 +2,7 @@
 
 [![pipeline-build-image][]][pipeline-build-site] [![pipeline-update-image][]][pipeline-update-site]
 
-[pipeline-build-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/11/build.svg?label=Build&logo=azure-devops&style=for-the-badge&color=navy
+[pipeline-build-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/11/build.svg?label=Build&logo=azure-devops&style=for-the-badge&color=blue
 [pipeline-build-site]: https://dev.azure.com/joeltimothyoh/docker-sourceservers/_build?definitionId=11
 [pipeline-update-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/12/update.svg?label=Update&logo=azure-devops&style=for-the-badge&color=brightgreen
 [pipeline-update-site]: https://dev.azure.com/joeltimothyoh/docker-sourceservers/_update?definitionId=12
