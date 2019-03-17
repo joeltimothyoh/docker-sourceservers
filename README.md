@@ -16,12 +16,12 @@ Builds up-to-date **Source** / **Goldsource** dedicated server images through us
 
 Dedicated servers hosted on Steam are usually required to be running the *latest version* of the game in order for clients to connect to them. Simply pull a game image by the `latest` tag for the latest version.
 
-[![dockerhub-sourceservers-logo][]][dockerhub-sourceservers-link] [![dockerhub-goldsourceservers-logo][]][dockerhub-goldsourceservers-link]
+[![srcds-dockerhub-logo][]][srcds-dockerhub-link] [![hlds-dockerhub-logo][]][hlds-dockerhub-link]
 
-[dockerhub-sourceservers-logo]: https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=popout-square
-[dockerhub-sourceservers-link]: https://hub.docker.com/r/sourceservers
-[dockerhub-goldsourceservers-logo]: https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=FF6917&label=&labelColor=&style=popout-square
-[dockerhub-goldsourceservers-link]: https://hub.docker.com/r/goldsourceservers
+[srcds-dockerhub-logo]: https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=popout-square
+[srcds-dockerhub-link]: https://hub.docker.com/r/sourceservers
+[hlds-dockerhub-logo]: https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=FF6917&label=&labelColor=&style=popout-square
+[hlds-dockerhub-link]: https://hub.docker.com/r/goldsourceservers
 
 ### Source
 
