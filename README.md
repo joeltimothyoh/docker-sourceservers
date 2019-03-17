@@ -18,9 +18,9 @@ Builds up-to-date **Source** / **Goldsource** dedicated server images through us
 
 Dedicated servers hosted on Steam are usually required to be running the *latest version* of the game in order for clients to connect to them. Simply pull a game image by the `latest` tag for the latest version.
 
-### Source
+[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?&logo=docker&color=FFA722)](https://hub.docker.com/r/sourceservers) [![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?&logo=docker&color=red)](https://hub.docker.com/r/goldsourceservers)
 
-[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?&logo=docker&color=FFA722)](https://hub.docker.com/r/sourceservers)
+### Source
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
@@ -68,8 +68,6 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 [srcds-tf-link]: https://microbadger.com/images/sourceservers/tf
 
 ### GoldSource
-
-[![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?&logo=docker&color=red)](https://hub.docker.com/r/goldsourceservers)
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
