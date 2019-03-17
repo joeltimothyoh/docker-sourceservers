@@ -25,7 +25,7 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 
 ### Source
 
-|Game|Version|Size / Layers|
+| Game | Version | Size / Layers |
 |:-:|:-:|:-:|
 | [`csgo`][srcds-csgo-dockerhub-link] | [![srcds-csgo-version][]][srcds-csgo-link] | [![srcds-csgo-image][]][srcds-csgo-link] |
 | [`cstrike`][srcds-cstrike-dockerhub-link] | [![srcds-cstrike-version][]][srcds-cstrike-link] | [![srcds-cstrike-image][]][srcds-cstrike-link] |
@@ -72,7 +72,7 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 
 ### GoldSource
 
-|Game|Version|Size / Layers|
+| Game | Version | Size / Layers |
 |:-:|:-:|:-:|
 | [`cstrike`][hlds-cstrike-dockerhub-link] | [![hlds-cstrike-version][]][hlds-cstrike-link] | [![hlds-cstrike-image][]][hlds-cstrike-link] |
 | [`czero`][hlds-czero-dockerhub-link] | [![hlds-czero-version][]][hlds-czero-link] | [![hlds-czero-image][]][hlds-czero-link] |
