@@ -9,7 +9,7 @@
 
 Builds up-to-date **Source** / **Goldsource** dedicated server images through use of [`steamcmd`](https://github.com/theohbrothers/docker-steamcmd).
 
-## Supported Tags
+## Supported Tagssourceservers
 
 * `latest` [(*/build/Dockerfile*)](https://github.com/theohbrothers/docker-sourceservers/blob/github/build/Dockerfile), [(*/update/Dockerfile*)](https://github.com/theohbrothers/docker-sourceservers/blob/github/update/Dockerfile)
 * `<version>` [(*/build/Dockerfile*)](https://github.com/theohbrothers/docker-sourceservers/blob/github/build/Dockerfile)
@@ -18,8 +18,8 @@ Builds up-to-date **Source** / **Goldsource** dedicated server images through us
 
 Dedicated servers hosted on Steam are usually required to be running the *latest version* of the game in order for clients to connect to them. Simply pull a game image by the `latest` tag for the latest version.
 
-* [![](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?&logo=docker)](https://hub.docker.com/r/sourceservers)
-* [![](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?&logo=docker)](https://hub.docker.com/r/goldsourceservers)
+[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?&logo=docker&style=for-the-badge&color=FFA722)](https://hub.docker.com/r/sourceservers)
+[![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?&logo=docker&style=for-the-badge&color=red)](https://hub.docker.com/r/goldsourceservers)
 
 ### Source
 
