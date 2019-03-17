@@ -18,13 +18,13 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 
 [dockerhub-sourceservers-logo]: https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=flat-square
 [dockerhub-sourceservers-link]: https://hub.docker.com/r/sourceservers
-[dockerhub-goldsourceservers-logo]: https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=orange&label=&labelColor=&style=flat-square
+[dockerhub-goldsourceservers-logo]: https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=FF6917&label=&labelColor=&style=flat-square
 [dockerhub-goldsourceservers-link]: https://hub.docker.com/r/goldsourceservers
 
 [![dockerhub-sourceservers-logo][]][dockerhub-sourceservers-link]  
 [![dockerhub-goldsourceservers-logo][]][dockerhub-goldsourceservers-link]
 
-### Source 
+### Source
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
