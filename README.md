@@ -2,9 +2,9 @@
 
 [![pipeline-build-image][]][pipeline-build-site] [![pipeline-update-image][]][pipeline-update-site]
 
-[pipeline-build-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/11/build.svg?label=Build&logo=azure-devops&style=for-the-badge&color=blue
+[pipeline-build-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/11/build.svg?label=Build&logo=azure-devops&color=blue
 [pipeline-build-site]: https://dev.azure.com/joeltimothyoh/docker-sourceservers/_build?definitionId=11
-[pipeline-update-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/12/update.svg?label=Update&logo=azure-devops&style=for-the-badge&color=brightgreen
+[pipeline-update-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/12/update.svg?label=Update&logo=azure-devops&color=brightgreen
 [pipeline-update-site]: https://dev.azure.com/joeltimothyoh/docker-sourceservers/_update?definitionId=12
 
 Builds up-to-date **Source** / **Goldsource** dedicated server images through use of [`steamcmd`](https://github.com/theohbrothers/docker-steamcmd).
@@ -18,11 +18,9 @@ Builds up-to-date **Source** / **Goldsource** dedicated server images through us
 
 Dedicated servers hosted on Steam are usually required to be running the *latest version* of the game in order for clients to connect to them. Simply pull a game image by the `latest` tag for the latest version.
 
-[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?&logo=docker&style=for-the-badge&color=FFA722)](https://hub.docker.com/r/sourceservers)
-
-[![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?&logo=docker&style=for-the-badge&color=red)](https://hub.docker.com/r/goldsourceservers)
-
 ### Source
+
+[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?&logo=docker&color=FFA722)](https://hub.docker.com/r/sourceservers)
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
@@ -70,6 +68,8 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 [srcds-tf-link]: https://microbadger.com/images/sourceservers/tf
 
 ### GoldSource
+
+[![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?&logo=docker&color=red)](https://hub.docker.com/r/goldsourceservers)
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
