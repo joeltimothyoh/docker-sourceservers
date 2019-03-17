@@ -67,9 +67,9 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 
 ### GoldSource
 
-|Game|Version|Size|Layers|
-|:-:|:-:|:-:|:-:|
-| [`cstrike`][hlds-cstrike-dockerhub-link] | [![hlds-cstrike-version][]][hlds-cstrike-link] | [![hlds-cstrike-image-size][]][hlds-cstrike-link] | [![hlds-cstrike-layers][]][hlds-cstrike-link]
+|Game|Version|Size / Layers|
+|:-:|:-:|:-:|
+| [`cstrike`][hlds-cstrike-dockerhub-link] | [![hlds-cstrike-version][]][hlds-cstrike-link] | [![hlds-cstrike-image][]][hlds-cstrike-link]
 | [`czero`][hlds-czero-dockerhub-link] | [![hlds-czero-version][]][hlds-czero-link] | [![hlds-czero-image][]][hlds-czero-link]
 | [`dmc`][hlds-dmc-dockerhub-link] | [![hlds-dmc-version][]][hlds-dmc-link] | [![hlds-dmc-image][]][hlds-dmc-link]
 | [`dod`][hlds-dod-dockerhub-link] | [![hlds-dod-version][]][hlds-dod-link] | [![hlds-dod-image][]][hlds-dod-link]
@@ -80,11 +80,7 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 
 [hlds-cstrike-dockerhub-link]: https://hub.docker.com/r/goldsourceservers/cstrike
 [hlds-cstrike-version]: https://images.microbadger.com/badges/version/goldsourceservers/cstrike.svg
-<!-- [hlds-cstrike-image]: https://images.microbadger.com/badges/image/goldsourceservers/cstrike.svg -->
-[hlds-cstrike-layers]: https://img.shields.io/microbadger/layers/goldsourceservers/cstrike/latest.svg?label=
-[hlds-cstrike-image-size]: https://img.shields.io/microbadger/image-size/goldsourceservers/cstrike/latest.svg?label=
-
-
+[hlds-cstrike-image]: https://images.microbadger.com/badges/image/goldsourceservers/cstrike.svg
 [hlds-cstrike-link]: https://microbadger.com/images/goldsourceservers/cstrike
 
 [hlds-czero-dockerhub-link]: https://hub.docker.com/r/goldsourceservers/czero
@@ -121,16 +117,3 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 [hlds-valve-version]: https://images.microbadger.com/badges/version/goldsourceservers/valve.svg
 [hlds-valve-image]: https://images.microbadger.com/badges/image/goldsourceservers/valve.svg
 [hlds-valve-link]: https://microbadger.com/images/goldsourceservers/valve
-
-
-[![](https://images.microbadger.com/badges/version/srcdsdebug/hl2mp.svg)](https://microbadger.com/images/srcdsdebug/hl2mp)
-
-[![](https://img.shields.io/microbadger/layers/srcdsdebug/hl2mp/latest.svg)](https://microbadger.com/images/srcdsdebug/hl2mp)
-
-[![](https://img.shields.io/microbadger/image-size/srcdsdebug/hl2mp/latest.svg)](https://microbadger.com/images/srcdsdebug/hl2mp)
-
-[![](https://img.shields.io/microbadger/version/srcdsdebug/hl2mp/latest.svg)](https://microbadger.com/images/srcdsdebug/hl2mp)
-
-[![](https://img.shields.io/microbadger/layers/_/alpine/3.8.svg?label=)](https://microbadger.com/images/srcdsdebug/hl2mp)
-
-https://img.shields.io/microbadger/layers/layers/_/alpine.svg?label=haha
