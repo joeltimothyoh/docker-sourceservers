@@ -21,7 +21,10 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 [dockerhub-goldsourceservers-logo]: https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=orange&label=&labelColor=&style=flat-square
 [dockerhub-goldsourceservers-link]: https://hub.docker.com/r/goldsourceservers
 
-### Source [![dockerhub-sourceservers-logo][]][dockerhub-sourceservers-link]
+[![dockerhub-sourceservers-logo][]][dockerhub-sourceservers-link]  
+[![dockerhub-goldsourceservers-logo][]][dockerhub-goldsourceservers-link]
+
+### Source 
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
@@ -68,7 +71,7 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 [srcds-tf-image]: https://images.microbadger.com/badges/image/sourceservers/tf.svg
 [srcds-tf-link]: https://microbadger.com/images/sourceservers/tf
 
-### GoldSource [![dockerhub-goldsourceservers-logo][]][dockerhub-goldsourceservers-link]
+### GoldSource
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
