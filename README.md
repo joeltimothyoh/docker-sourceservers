@@ -16,19 +16,19 @@ Builds up-to-date **Source** / **Goldsource** dedicated server images through us
 
 Dedicated servers hosted on Steam are usually required to be running the *latest version* of the game in order for clients to connect to them. Simply pull a game image by the `latest` tag for the latest version.
 
-[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=for-the-badge)](https://hub.docker.com/r/sourceservers) [![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=red&label=&labelColor=&style=for-the-badge)](https://hub.docker.com/r/goldsourceservers)
+[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=flat-square)](https://hub.docker.com/r/sourceservers) [![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=red&label=&labelColor=&style=flat-square)](https://hub.docker.com/r/goldsourceservers)
 
 ### Source
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
-| [`csgo`][srcds-csgo-dockerhub-link] | [![srcds-csgo-version][]][srcds-csgo-link] | [![srcds-csgo-image][]][srcds-csgo-link]
-| [`cstrike`][srcds-cstrike-dockerhub-link] | [![srcds-cstrike-version][]][srcds-cstrike-link] | [![srcds-cstrike-image][]][srcds-cstrike-link]
-| [`dod`][srcds-dod-dockerhub-link] | [![srcds-dod-version][]][srcds-dod-link] | [![srcds-dod-image][]][srcds-dod-link]
-| [`hl2mp`][srcds-hl2mp-dockerhub-link] | [![srcds-hl2mp-version][]][srcds-hl2mp-link] | [![srcds-hl2mp-image][]][srcds-hl2mp-link]
-| [`left4dead`][srcds-left4dead-dockerhub-link] | [![srcds-left4dead-version][]][srcds-left4dead-link] | [![srcds-left4dead-image][]][srcds-left4dead-link]
-| [`left4dead2`][srcds-left4dead2-dockerhub-link] | [![srcds-left4dead2-version][]][srcds-left4dead2-link] | [![srcds-left4dead2-image][]][srcds-left4dead2-link]
-| [`tf`][srcds-tf-dockerhub-link] | [![srcds-tf-version][]][srcds-tf-link] | [![srcds-tf-image][]][srcds-tf-link]
+| [`csgo`][srcds-csgo-dockerhub-link] | [![srcds-csgo-version][]][srcds-csgo-link] | [![srcds-csgo-image][]][srcds-csgo-link] |
+| [`cstrike`][srcds-cstrike-dockerhub-link] | [![srcds-cstrike-version][]][srcds-cstrike-link] | [![srcds-cstrike-image][]][srcds-cstrike-link] |
+| [`dod`][srcds-dod-dockerhub-link] | [![srcds-dod-version][]][srcds-dod-link] | [![srcds-dod-image][]][srcds-dod-link] |
+| [`hl2mp`][srcds-hl2mp-dockerhub-link] | [![srcds-hl2mp-version][]][srcds-hl2mp-link] | [![srcds-hl2mp-image][]][srcds-hl2mp-link] |
+| [`left4dead`][srcds-left4dead-dockerhub-link] | [![srcds-left4dead-version][]][srcds-left4dead-link] | [![srcds-left4dead-image][]][srcds-left4dead-link] |
+| [`left4dead2`][srcds-left4dead2-dockerhub-link] | [![srcds-left4dead2-version][]][srcds-left4dead2-link] | [![srcds-left4dead2-image][]][srcds-left4dead2-link] |
+| [`tf`][srcds-tf-dockerhub-link] | [![srcds-tf-version][]][srcds-tf-link] | [![srcds-tf-image][]][srcds-tf-link] |
 
 [srcds-csgo-dockerhub-link]: https://hub.docker.com/r/sourceservers/csgo
 [srcds-csgo-version]: https://images.microbadger.com/badges/version/sourceservers/csgo.svg
@@ -69,14 +69,14 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
-| [`cstrike`][hlds-cstrike-dockerhub-link] | [![hlds-cstrike-version][]][hlds-cstrike-link] | [![hlds-cstrike-image][]][hlds-cstrike-link]
-| [`czero`][hlds-czero-dockerhub-link] | [![hlds-czero-version][]][hlds-czero-link] | [![hlds-czero-image][]][hlds-czero-link]
-| [`dmc`][hlds-dmc-dockerhub-link] | [![hlds-dmc-version][]][hlds-dmc-link] | [![hlds-dmc-image][]][hlds-dmc-link]
-| [`dod`][hlds-dod-dockerhub-link] | [![hlds-dod-version][]][hlds-dod-link] | [![hlds-dod-image][]][hlds-dod-link]
-| [`gearbox`][hlds-gearbox-dockerhub-link] | [![hlds-gearbox-version][]][hlds-gearbox-link] | [![hlds-gearbox-image][]][hlds-gearbox-link]
-| [`ricochet`][hlds-ricochet-dockerhub-link] | [![hlds-ricochet-version][]][hlds-ricochet-link] | [![hlds-ricochet-image][]][hlds-ricochet-link]
-| [`tfc`][hlds-tfc-dockerhub-link] | [![hlds-tfc-version][]][hlds-tfc-link] | [![hlds-tfc-image][]][hlds-tfc-link]
-| [`valve`][hlds-valve-dockerhub-link] | [![hlds-valve-version][]][hlds-valve-link] | [![hlds-valve-image][]][hlds-valve-link]
+| [`cstrike`][hlds-cstrike-dockerhub-link] | [![hlds-cstrike-version][]][hlds-cstrike-link] | [![hlds-cstrike-image][]][hlds-cstrike-link] |
+| [`czero`][hlds-czero-dockerhub-link] | [![hlds-czero-version][]][hlds-czero-link] | [![hlds-czero-image][]][hlds-czero-link] |
+| [`dmc`][hlds-dmc-dockerhub-link] | [![hlds-dmc-version][]][hlds-dmc-link] | [![hlds-dmc-image][]][hlds-dmc-link] |
+| [`dod`][hlds-dod-dockerhub-link] | [![hlds-dod-version][]][hlds-dod-link] | [![hlds-dod-image][]][hlds-dod-link] |
+| [`gearbox`][hlds-gearbox-dockerhub-link] | [![hlds-gearbox-version][]][hlds-gearbox-link] | [![hlds-gearbox-image][]][hlds-gearbox-link] |
+| [`ricochet`][hlds-ricochet-dockerhub-link] | [![hlds-ricochet-version][]][hlds-ricochet-link] | [![hlds-ricochet-image][]][hlds-ricochet-link] |
+| [`tfc`][hlds-tfc-dockerhub-link] | [![hlds-tfc-version][]][hlds-tfc-link] | [![hlds-tfc-image][]][hlds-tfc-link] |
+| [`valve`][hlds-valve-dockerhub-link] | [![hlds-valve-version][]][hlds-valve-link] | [![hlds-valve-image][]][hlds-valve-link] |
 
 [hlds-cstrike-dockerhub-link]: https://hub.docker.com/r/goldsourceservers/cstrike
 [hlds-cstrike-version]: https://images.microbadger.com/badges/version/goldsourceservers/cstrike.svg
