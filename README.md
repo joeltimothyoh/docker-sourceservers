@@ -1,6 +1,6 @@
 # Docker-SourceServers [![pipeline-build-image][]][pipeline-build-site] [![pipeline-update-image][]][pipeline-update-site]
 
-[pipeline-build-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/11/build.svg?label=Build&logo=&color=blue&style=flat-square
+[pipeline-build-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/11/build.svg?label=Build&logo=&color=brightgreen&style=flat-square
 [pipeline-build-site]: https://dev.azure.com/joeltimothyoh/docker-sourceservers/_build?definitionId=11
 [pipeline-update-image]: https://img.shields.io/azure-devops/build/joeltimothyoh/docker-sourceservers/12/update.svg?label=Update&logo&color=brightgreen&style=flat-square
 [pipeline-update-site]: https://dev.azure.com/joeltimothyoh/docker-sourceservers/_update?definitionId=12
@@ -16,9 +16,12 @@ Builds up-to-date **Source** / **Goldsource** dedicated server images through us
 
 Dedicated servers hosted on Steam are usually required to be running the *latest version* of the game in order for clients to connect to them. Simply pull a game image by the `latest` tag for the latest version.
 
-[![sourceservers](https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=flat-square)](https://hub.docker.com/r/sourceservers) [![goldsourceservers](https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=red&label=&labelColor=&style=flat-square)](https://hub.docker.com/r/goldsourceservers)
+[dockerhub-sourceservers-logo]: https://img.shields.io/badge/docker%20hub-sourceservers-blue.svg?logo=docker&color=FFA722&label=&labelColor=&style=flat-square
+[dockerhub-sourceservers-link]: https://hub.docker.com/r/sourceservers
+[dockerhub-goldsourceservers-logo]: https://img.shields.io/badge/docker%20hub-goldsourceservers-blue.svg?logo=docker&color=red&label=&labelColor=&style=flat-square
+[dockerhub-goldsourceservers-link]: https://hub.docker.com/r/goldsourceservers
 
-### Source
+### Source [![dockerhub-sourceservers-logo][]][dockerhub-sourceservers-link]
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
@@ -65,7 +68,7 @@ Dedicated servers hosted on Steam are usually required to be running the *latest
 [srcds-tf-image]: https://images.microbadger.com/badges/image/sourceservers/tf.svg
 [srcds-tf-link]: https://microbadger.com/images/sourceservers/tf
 
-### GoldSource
+### GoldSource [![dockerhub-goldsourceservers-logo][]][dockerhub-goldsourceservers-link]
 
 |Game|Version|Size / Layers|
 |:-:|:-:|:-:|
