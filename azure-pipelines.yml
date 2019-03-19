@@ -102,6 +102,13 @@ jobs:
       set -e
       # Test the game image
       if [ ! "${NO_TEST}" = 'true' ]; then
+          TEST_SCRIPT=$( cat - <<'EOF'
+              set -e
+              printenv
+              echo; ls -al
+              echo; exec ${GAME_BIN} -game ${GAME} +version +exit
+          EOF
+          )
           date
           docker run \
               -t \
