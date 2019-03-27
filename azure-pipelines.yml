@@ -30,11 +30,9 @@ jobs:
       if [ "${APPID}" = 90 ]; then
           REPOSITORY="${REGISTRY_GOLDSOURCE}/${GAME}"
           GAME_ENGINE="hlds"
-          GAME_BIN="hlds_linux"
       else
           REPOSITORY="${REGISTRY_SOURCE}/${GAME}"
           GAME_ENGINE="srcds"
-          GAME_BIN="srcds_linux"
       fi
 
       echo "${REGISTRY_PASSWORD}" | docker login -u "${REGISTRY_USER}" --password-stdin
@@ -97,12 +95,24 @@ jobs:
       set -e
       # Test the game image
       if [ ! "${NO_TEST}" = 'true' ]; then
+          if [ -z "${GAME_BIN}" ]; then
+              if [ "${APPID}" = 90 ]; then
+                  GAME_BIN="hlds_linux"
+              else
+                  GAME_BIN="srcds_linux"
+              fi
+          fi
+          if [ -z "${GAME_LAUNCH_OPTS}" ]; then
+              GAME_LAUNCH_OPTS="-game ${GAME}"
+          fi
+          GAME_TEST_CMD="${GAME_BIN} ${GAME_LAUNCH_OPTS} +version +exit"
+          echo "Game test command: ${GAME_TEST_CMD}"
           date
           docker run \
               -t \
               --rm \
               "${GAME_IMAGE}" \
-              "printenv && echo && ls -al && echo && exec ${GAME_BIN} -game ${GAME} +version +exit"
+              "printenv && echo && ls -al && echo && exec ${GAME_TEST_CMD}"
           echo; date
       fi
     displayName: 'Test Game Image'
