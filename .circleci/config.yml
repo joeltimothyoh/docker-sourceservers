@@ -34,7 +34,7 @@ jobs:
         command: |
           printenv
     - run:
-        name: Build image
+        name: Build, test, push image
         no_output_timeout: 40m
         command: |
           set -ex
@@ -89,9 +89,6 @@ jobs:
           docker images
           docker inspect "${GAME_IMAGE}"
           docker history "${GAME_IMAGE}"
-    - run:
-        name: Test image
-        command: |
           # Test the game image
           if [ ! "${NO_TEST}" = 'true' ]; then
               date
@@ -101,10 +98,6 @@ jobs:
                   "${GAME_IMAGE}" \
                   "printenv && echo && ls -al && echo && exec ${GAME_BIN} -game ${GAME} +version +exit"
           fi
-    - run:
-        name: Push image
-        no_output_timeout: 40m
-        command: |
           # Push the game image
           if [ ! "${NO_PUSH}" = 'true' ]; then
               date
