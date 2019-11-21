@@ -27,7 +27,8 @@ jobs:
           docker info
           docker version
     - run:
-        name: Before script
+        name: Build image
+        no_output_timeout: 40m
         command: |
           # Process variables
           PIPELINE="${CIRCLE_BRANCH}"
@@ -41,10 +42,6 @@ jobs:
             GAME_BIN="srcds_linux"
           fi
           echo "${REGISTRY_PASSWORD}" | docker login -u "${REGISTRY_USER}" --password-stdin
-    - run:
-        name: Build image
-        no_output_timeout: 40m
-        command: |
           date
           # Build / Update the game image
           if [ "${PIPELINE}" = 'build' ]; then
