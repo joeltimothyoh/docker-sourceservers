@@ -27,6 +27,10 @@ jobs:
           docker info
           docker version
     - run:
+        name: Print environment variables
+        command: |
+          printenv
+    - run:
         name: Build image
         no_output_timeout: 40m
         command: |

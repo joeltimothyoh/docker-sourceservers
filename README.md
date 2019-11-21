@@ -4,7 +4,7 @@
 
 |  Build | Update |
 |:-:|:-:|
-| [![pipeline-travis-build-badge][]][pipeline-travis-build-link] [![pipeline-azurepipelines-build-badge][]][pipeline-azurepipelines-build-link] | [![pipeline-travis-update-badge][]][pipeline-travis-update-link] [![pipeline-azurepipelines-update-badge][]][pipeline-azurepipelines-update-link] |
+| [![pipeline-circleci-build-badge][]][pipeline-circleci-build-link] [![pipeline-travis-build-badge][]][pipeline-travis-build-link] [![pipeline-azurepipelines-build-badge][]][pipeline-azurepipelines-build-link] | [![pipeline-circleci-update-badge][]][pipeline-circleci-update-link] [![pipeline-travis-update-badge][]][pipeline-travis-update-link] [![pipeline-azurepipelines-update-badge][]][pipeline-azurepipelines-update-link] |
 
 [pipeline-travis-build-badge]: https://img.shields.io/travis/startersclan/docker-sourceservers/build.svg?label=&logo=travis&style=flat-square
 [pipeline-travis-build-link]: https://travis-ci.org/startersclan/docker-sourceservers/builds
@@ -15,6 +15,14 @@
 [pipeline-azurepipelines-build-link]: https://dev.azure.com/startersclan/docker-sourceservers/_build?definitionId=2
 [pipeline-azurepipelines-update-badge]: https://img.shields.io/azure-devops/build/startersclan/docker-sourceservers/3/update.svg?label=&logo=azure-pipelines&style=flat-square
 [pipeline-azurepipelines-update-link]: https://dev.azure.com/startersclan/docker-sourceservers/_build?definitionId=3
+
+[pipeline-circleci-build-badge]: https://circleci.com/gh/joeltimothyoh/docker-sourceservers/tree/build.svg?style=svg
+[pipeline-circleci-build-link]: https://circleci.com/gh/joeltimothyoh/docker-sourceservers/tree/build
+[pipeline-circleci-update-badge]: https://circleci.com/gh/joeltimothyoh/docker-sourceservers/tree/update.svg?style=svg
+[pipeline-circleci-update-link]: https://circleci.com/gh/joeltimothyoh/docker-sourceservers/tree/update
+
+
+
 
 ## Supported Tags
 
