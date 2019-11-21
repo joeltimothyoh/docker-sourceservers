@@ -30,14 +30,10 @@ jobs:
           docker info
           docker version
     - run:
-        name: Print environment variables
-        command: |
-          printenv
-    - run:
         name: Build, test, push image
         no_output_timeout: 40m
         command: |
-          set -ex
+          set -e
           # Process variables
           PIPELINE="${CIRCLE_BRANCH}"
           if [ "${APPID}" = 90 ]; then
