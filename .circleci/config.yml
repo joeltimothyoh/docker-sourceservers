@@ -45,6 +45,9 @@ workflows:
     - build-image
     - send-notification
 
+orbs:
+  slack: circleci/slack@3.4.2
+
 jobs:
   build-image:
     machine:
@@ -156,6 +159,9 @@ jobs:
               date
           fi
           docker logout
+    - slack/status:
+        fail_only: false
+        webhook: ${SLACK_WEBHOOK}
   send-notification:
     machine:
       image: ubuntu-1604:201903-01
@@ -235,3 +241,6 @@ jobs:
                   sleep $SLEEP
               fi
           done
+    - slack/status:
+        fail_only: false
+        webhook: ${SLACK_WEBHOOK}
